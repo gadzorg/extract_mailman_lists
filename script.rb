@@ -77,7 +77,7 @@ def list_infos_from_config_files
   @lists_infos={}
 
   @lists.each do |list_name|
-    file=File.open(File.join(ROOT,"lists_configs",list_name))
+    file=File.open(File.join(ROOT,"IN/lists_configs",list_name))
     content=file.read
 
     @lists_infos[list_name] = parse_config_file(list_name,content)

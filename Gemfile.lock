@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.0.5)
+    mysql2 (0.3.21)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  mysql2 (~> 0.3.20)
+
+BUNDLED WITH
+   1.12.5
